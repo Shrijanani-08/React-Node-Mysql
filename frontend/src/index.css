@@ -1,0 +1,100 @@
+/*====================================
+  CONTENTS
+  ====================================
+
+ 1. Root Variables
+ 2. Global Styles
+ 3. Template
+ 4. Width
+ 5. Height
+ 6. Fonts
+ 7. Colors
+ 8. Helpers
+
+*/
+/*====================================
+  1. ROOT VARIABLES
+  ====================================*/
+  :root{
+  --font-family: "Roboto", sans-serif;
+  --font-size: 1rem;
+  --font-weight: 400;
+  --line-height: 1.5;
+  /* --bg-color: linear-gradient(to right, #1FB2FF, #000000, #1FB2FF); */
+  /* --bg-color:radial-gradient(circle, #262584, #000000e7); */
+  --bg-color:#fefefe;
+  --main-color: #1b1a60;
+  --text-color: #312f2f;
+  --pink: #fa68b0;
+  --white: #fff;
+  --form-field-bg: #062549;
+  --place-holder: #898b8e;
+  --border: #586c84;
+  }
+/*====================================
+  2. GLOBAL STYLES
+  ====================================*/
+  body {
+    width:100vw;
+    /* height:100vh; */
+    /* background-image: var(--bg-color); */
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    line-height: var(--line-height);
+    color: var(--text-color);
+    padding: 0;
+    margin:0;
+  }
+/*====================================
+  3. TEMPLATE
+  ====================================*/
+
+
+
+
+/*====================================
+  4. WIDTH
+  ====================================*/
+
+
+
+
+/*====================================
+  5. HEIGHT
+  ====================================*/
+
+
+
+
+/*====================================
+  6. FONTS
+  ====================================*/
+
+
+
+
+/*====================================
+  7. COLORS
+  ====================================*/
+
+
+
+
+  /*====================================
+  8. HELPERS
+  ====================================*/
+  .recharts-legend-wrapper{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 280px !important;
+    left: 43px !important;
+    line-height: 24px;
+  }
+
+  .recharts-default-legend{
+    display:flex;
+  }
+
